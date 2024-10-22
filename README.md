@@ -16,14 +16,14 @@ A Hybrid Power Management System
    ```bash
    git clone https://github.com/Asad-Ahmed-Ansari/EnA_App.git
 2. Navigate to the project directory:
-    cd EnA_App
+   $ cd EnA_App
 3. Install the required dependencies:
-    npm install
+   $ npm install
 4. Link native dependencies (if needed): 
-    npx react-native link
+   $ npx react-native link
 5. Run the app on your simulator or device:
-    npx react-native run-android  # For Android
-    npx react-native run-ios      # For iOS
+   $ npx react-native run-android  # For Android
+   $ npx react-native run-ios      # For iOS
 
 ## Usage 
 The app allows admins and super admins to manage bank sites and users. Key functionalities include:
@@ -39,14 +39,14 @@ Bank Site Registration: Ability to register and manage sites for various banks.
 Real-time Data: Site management displays data such as contact persons and device numbers in real time.
 Animations and Loaders: Modern and appealing animations using Rive and other libraries for a smooth user experience.
 
-## TEchnology Stack 
+## Technology Stack 
 The app is built using the following technologies:
 
-Frontend: React Native
-Backend: Node.js with Express
-Database: PostgreSQL
-Animations: Rive (for loader animations)
-Libraries: Axios, React Navigation, Redux (for state management)
+$ Frontend: React Native
+$ Backend: Node.js with Express
+$ Database: PostgreSQL
+$ Animations: Rive (for loader animations)
+$ Libraries: Axios, React Navigation, Redux (for state management)
 
 ## License 
 This project is licensed under the MIT License. See the LICENSE file for details.
