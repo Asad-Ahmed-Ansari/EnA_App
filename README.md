@@ -16,12 +16,16 @@ A Hybrid Power Management System
    ```bash
    git clone https://github.com/Asad-Ahmed-Ansari/EnA_App.git
 2. Navigate to the project directory:
+   ```bash
    $ cd EnA_App
 3. Install the required dependencies:
+   ```bash
    $ npm install
 4. Link native dependencies (if needed): 
+   ```bash
    $ npx react-native link
 5. Run the app on your simulator or device:
+   ```bash
    $ npx react-native run-android  # For Android
    $ npx react-native run-ios      # For iOS
 
@@ -42,11 +46,11 @@ Animations and Loaders: Modern and appealing animations using Rive and other lib
 ## Technology Stack 
 The app is built using the following technologies:
 
-$ Frontend: React Native
-$ Backend: Node.js with Express
-$ Database: PostgreSQL
-$ Animations: Rive (for loader animations)
-$ Libraries: Axios, React Navigation, Redux (for state management)
+1. Frontend: React Native
+2. Backend: Node.js with Express
+3. Database: PostgreSQL
+4. Animations: Rive (for loader animations)
+5. Libraries: Axios, React Navigation, Redux (for state management)
 
 ## License 
 This project is licensed under the MIT License. See the LICENSE file for details.
